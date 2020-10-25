@@ -1,0 +1,96 @@
+ParentRoot,ChildOne,ChildTwo,ChildThree,ChildFour
+Application,,,,
+Application,MacOS,,,
+Application,MacOS,01.Testing,,
+Application,MacOS,02.Acceptation,,
+Application,MacOS,03.Production,,
+Application,MacOS,04.Retired,,
+Application,Windows,,,
+Application,Windows,01.Testing,,
+Application,Windows,02.Acceptation,,
+Application,Windows,03.Production,,
+Application,Windows,04.Retired,,
+UserCollection,,,,
+UserCollection,1.Query Collections,,,
+UserCollection,1.Query Collections,User-AD Group,,
+UserCollection,1.Query Collections,User-Custom,,
+UserCollection,1.Query Collections,Organizational Unit,,
+UserCollection,2.Deployment Collections,,,
+UserCollection,2.Deployment Collections,Application Management,,
+UserCollection,2.Deployment Collections,Application Management,MacOS,
+UserCollection,2.Deployment Collections,Application Management,MacOS,01.Testing
+UserCollection,2.Deployment Collections,Application Management,MacOS,02.Acceptation
+UserCollection,2.Deployment Collections,Application Management,MacOS,03.Production
+UserCollection,2.Deployment Collections,Application Management,Windows,
+UserCollection,2.Deployment Collections,Application Management,Windows,01.testing
+UserCollection,2.Deployment Collections,Application Management,Windows,02.Acceptation
+UserCollection,2.Deployment Collections,Application Management,Windows,03.production
+DeviceCollection,,,,
+DeviceCollection,1.Query Collections,,,
+DeviceCollection,1.Query Collections,System-AD Groups,,
+DeviceCollection,1.Query Collections,System-BIOS,,
+DeviceCollection,1.Query Collections,System-Custom,,
+DeviceCollection,1.Query Collections,System-Model,,
+DeviceCollection,1.Query Collections,System-Operating System,,
+DeviceCollection,1.Query Collections,System-Operating System,MacOS,
+DeviceCollection,1.Query Collections,System-Operating System,Windows,
+DeviceCollection,1.Query Collections,System-Organizational Unit,,
+DeviceCollection,1.Query Collections,System-State,,
+DeviceCollection,1.Query Collections,System-Type,,
+DeviceCollection,2.Deployment Collections,,,
+DeviceCollection,2.Deployment Collections,Application Management,,
+DeviceCollection,2.Deployment Collections,Application Management,MacOS,
+DeviceCollection,2.Deployment Collections,Application Management,MacOS,01.Testing
+DeviceCollection,2.Deployment Collections,Application Management,MacOS,02.Acceptation
+DeviceCollection,2.Deployment Collections,Application Management,MacOS,03.Production
+DeviceCollection,2.Deployment Collections,Application Management,Windows,
+DeviceCollection,2.Deployment Collections,Application Management,Windows,01.Testing
+DeviceCollection,2.Deployment Collections,Application Management,Windows,02.Acceptation
+DeviceCollection,2.Deployment Collections,Application Management,Windows,03.Production
+DeviceCollection,2.Deployment Collections,Baselines,,
+DeviceCollection,2.Deployment Collections,Device Client Settings,,
+DeviceCollection,2.Deployment Collections,Operating System Deployment,,
+DeviceCollection,2.Deployment Collections,Operating System Deployment,00.Development,
+DeviceCollection,2.Deployment Collections,Operating System Deployment,01.Testing,
+DeviceCollection,2.Deployment Collections,Operating System Deployment,02.Acceptation,
+DeviceCollection,2.Deployment Collections,Operating System Deployment,03.Production,
+DeviceCollection,2.Deployment Collections,Power Plans,,
+DeviceCollection,2.Deployment Collections,Software Updates,,
+DeviceCollection,2.Deployment Collections,Software Updates,MacOS,
+DeviceCollection,2.Deployment Collections,Software Updates,MacOS,01.Testing
+DeviceCollection,2.Deployment Collections,Software Updates,MacOS,02.Acceptation
+DeviceCollection,2.Deployment Collections,Software Updates,MacOS,03.Production
+DeviceCollection,2.Deployment Collections,Software Updates,Windows,
+DeviceCollection,2.Deployment Collections,Software Updates,Windows,01.Testing
+DeviceCollection,2.Deployment Collections,Software Updates,Windows,02.Acceptation
+DeviceCollection,2.Deployment Collections,Software Updates,Windows,03.Production
+BootImage,,,,
+ConfigurationBaseline,,,,
+ConfigurationItem,,,,
+Driver,,,,
+OperatingSystemImage,,,,
+OperatingSystemImage,MacOS,,,
+OperatingSystemImage,MacOS,Retired,,
+OperatingSystemImage,MacOS,Build and Capture,,
+OperatingSystemImage,MacOS,Original,,
+OperatingSystemImage,Windows,,,
+OperatingSystemImage,Windows,Retired,,
+OperatingSystemImage,Windows,Build and Capture,,
+OperatingSystemImage,Windows,Original,,
+OperatingSystemInstaller,,,,
+Package,,,,
+Package,Client Package,,,
+Package,Driver Installers,,,
+Package,Firmware,,,
+Package,Language Packs,,,
+Package,Retired,,,
+Package,Scripts,,,
+Package,Settings,,,
+Package,Tools,,,
+Query,,,,
+SoftwareMetering,,,,
+TaskSequence,,,,
+TaskSequence,01.Testing,,,
+TaskSequence,02.Acceptation,,,
+TaskSequence,03.Production,,,
+TaskSequence,04.Retired,,,
